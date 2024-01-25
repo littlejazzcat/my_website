@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'blog', #添加blog应用后才可以应用模型、静态文件、模板等内容
 ]
 
 MIDDLEWARE = [
