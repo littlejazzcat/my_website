@@ -5,4 +5,6 @@ class Blog(models.Model):
     title = models.CharField("标题", max_length=100)
     content = models.TextField("内容")
     creatr_time = models.DateField("发布时间")
-    
+
+    def __str__(self):
+        return self.title
